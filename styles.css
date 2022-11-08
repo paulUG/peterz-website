@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    /* padding: 0px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.school {
+    border: 1px solid red;
+    height: 100;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: blue;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: brown;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tone{
+    /* margin: 0 auto;
+    width: 90%; */
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%);
+}
+h4{
+    color:black;
+    margin: 10px 0px 10px;
+    font-size: 30px;
+}
+h1{
+    color: aquamarine;
+    margin: 10px 0px 10px;
+    font-size: 50px;
+}
+h2{
+    color: beige;
+    margin: 10px 0px 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,301 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
+                   /*HOME*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(48, 28, 28, 0.5);
+    top: 0px;
+    list-style: none;
+    position: sticky;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;  
+}
+.navbar ul li{
+    font-family: century;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(146, 0, 0);
+    padding: 8px 25px;
+    transition: all .5s ease;
+    padding-right: 15px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0  0 10px rgb(77, 50, 50);
+    transition: all .5s ease;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/back.png);
+    background: cover;
+
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+#home::before{
+    background: url(/images/back.png);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100px;
+    z-index: -1;
+    opacity: .8;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    right: 10PX;
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 15s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(192, 10, 49);
+    color: black;
+    box-shadow: 0 0 5px rgb(107, 54, 54), 0 0 10px white 0 0 15px;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    /*margin-bottom: 50px;*/
+    background-color: darkslategray
+    
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 330px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    color: white;
+    align-items: center;
+    padding: 20px;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    border-radius: 30px;
+}
+/* services*/
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: darkslategrey;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to top,  darkslategray 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+}
+
+
+
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px, 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 200PX;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+#send{
+    padding: 10px;
+    width: 100px;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 10px rgb(116, 19, 19));
+    
+}
+@media screen {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+backpic{
+background: url(./images/back.png) no-repeat;
+background-size: cover;
+height: 100vh;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.header{
+    height: 100vh;
+    background-image: url(/identity.png);
+  
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.user-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.user-box img{
+    border-radius: 50%;
+    width: 20px solid #6caed5;
+}
+.user-box h1{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}<
